@@ -43,4 +43,5 @@ def good_dice(sides=6, dice_num=2):
             return dice_value, dices
 
 
-print(good_dice())
+def calc_dice_mean(sides=6, dice_num=1):
+    return ((sides + 1)/2)*dice_num
